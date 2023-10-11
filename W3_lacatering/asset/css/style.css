@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    padding: 8px 16px;
+    padding-bottom: 48px;
+    height: 38.5px;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+}
+#nav {
+    display: block;
+    line-height: 38.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 8px;
+    display: inline-block;
+    line-height: 38.5px;
+    font-size: 15px;
+}
+#nav .subnav {
+    float: right;
+    list-style-type: none;
+    padding-right: 16px;
+}
+#nav .subnav li {
+    display: inline-block;  
+    padding: 0 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#nav a:hover,
+#nav .subnav li:hover {
+    background-color: #ccc;
+}
+#le-catering {
+    background: url(/asset/img/hamburger.jpg) top / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+#le-catering .text-content {
+    position: absolute;
+    left: 24px;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 5px;
+    opacity: 80%;
+    bottom: 20px;
+}
+#content {
+    padding: 0 64px;
+}
+#about {
+    overflow: hidden;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #ddd;
+}
+#about .img {
+    width: 100%;
+}
+.about-img {
+    width: 50%;
+    padding: 12px 24px;
+    float: left;
+    opacity: 70%;
+}
+.about-description {
+    width: 50%;
+    padding: 12px 24px;
+    float: right;
+}
+.about-heading {
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 10px 0px;
+}
+.about-subheading {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 18px;
+    margin: 10px 0px;
+    opacity: 80%;
+}
+.about-text-1 {
+    font-size: 18px;
+    margin: 10px 0px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+.about-text-2 {
+    font-size: 18px;
+    opacity: 75%;
+    margin: 10px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+#menu {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    overflow: hidden;
+    line-height: 1.5;
+    border-bottom: 1px solid #ddd;
+
+}
+.menu-img {
+    width: 50%;
+    float: right;
+    opacity: 70%;
+    padding: 12px 24px;
+}
+.menu-main {
+    padding: 12px 24px;
+}
+.menu-heading {
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.menu-subheading {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.menu-description {
+    font-size: 15px;
+    opacity: 75%;
+    line-height: 1.5;
+}
+.bold {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #607d8b;
+    line-height: 1.5;
+}
+#contact {
+    padding: 64px 0px;
+}
+.add {
+    opacity: 100%;
+}
+.form {
+    padding-top: 16px;
+}
+
+.form-control {
+    width: 100%;
+    height: 64px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 0 12px;
+}
+.btn-submit {
+    padding: 32px 0px;
+}
+.submit-contact-btn {
+    height: 46px;
+    padding: 0 24px;
+    border: none;
+}
+.submit-contact-btn:hover {
+    background-color: #ccc;
+}
+#footer {
+    background-color: #eee;
+    padding: 64px ;
+}
+.footer {
+    text-align: center;
+}
+.w3-link {
+    color: #000;
+}
